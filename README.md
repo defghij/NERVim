@@ -1,7 +1,1 @@
----
-
-title: Neon Genesis Vim
-
-description: My personal configuration for NeoVim
-
----
+NERVim: Personal NeoVim configuration
