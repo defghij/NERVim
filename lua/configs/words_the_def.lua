@@ -1,0 +1,33 @@
+--  Commands
+--  
+--      :WordThesaurus <word> [code]: Fetch synonyms for the given word. The code parameter is optional and defaults to "syn" (synonyms).
+--      :WordDefinition <word>: Fetch the definition of the given word.
+--      :WordDict <word>: Fetch the definition using a dict command (I think for Linux only).
+--  
+--  Available code Parameters for :WordThesaurus
+--  
+--  The :WordThesaurus command uses a second optional parameter, code, which determines the type of linguistic data retrieved. Below are the available options:
+--  
+--      syn: Synonyms (words contained within the same WordNet synset).
+--      ant: Antonyms (words with opposite meanings, per WordNet).
+--      trg: Triggers (words that are statistically associated with the query word in the same piece of text).
+--      spc: "Kind of" (words that are more specific than the query word).
+--      gen: "More general" (words that are more general than the query word).
+--      com: "Comprises" (words that constitute parts of the query word).
+--      par: "Part of" (words that the query word is a part of).
+--      bga: "Frequent followers" (words that frequently follow the query word in text).
+--      bgb: "Frequent predecessors" (words that frequently precede the query word in text).
+--      rhy: Rhymes (words that rhyme with the query word).
+--      nry: Approximate rhymes (words that nearly rhyme with the query word).
+--      hom: Homophones (words that sound like the query word).
+--      cns: Consonant
+--  
+--      t match (words that have a similar consonant structure).
+--  
+--  Key Mappings
+--  
+--  The plugin also provides default key mappings for quick access:
+--  
+--      <leader>Wt: Show synonyms for the word under the cursor.
+--      <leader>Wd: Show the definition of the word under the cursor.
+--      <leader>Wl: Show the definition using a specific dictionary for the word under the cursor.

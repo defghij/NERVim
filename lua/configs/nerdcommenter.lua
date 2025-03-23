@@ -1,0 +1,40 @@
+-- No current additional settings set for nerdcommenter
+
+
+-- Nerdcommenter Default Mappings --
+--  [count]<leader>cc        - Comment out the current line or text selected in
+--                             visual mode. **|NERDCommenterComment|**
+--  [count]<leader>cn        - Same as <leader>cc but forces nesting. 
+--                             **|NERDCommenterNested|**
+--  [count]<leader>c<space>  - Toggles the comment state of the selected line(s).
+--                             If the topmost selected line is commented, all 
+--                             selected lines are uncommented and vice versa. 
+--                             **|NERDCommenterToggle|**
+--  [count]<leader>cm        - Comments the given lines using only one set of 
+--                             multipart delimiters. **|NERDCommenterMinimal|**
+--  [count]<leader>ci        - Toggles the comment state of the selected line(s)
+--                             individually. **|NERDCommenterInvert|**
+--  [count]<leader>cs        - Comments out the selected lines with a pretty 
+--                             block formatted layout. **|NERDCommenterSexy|**
+--  [count]<leader>cy        - Same as <leader>cc except that the commented 
+--                             line(s) are yanked first. **|NERDCommenterYank|**
+--  <leader>c$               - Comments the current line from the cursor to the 
+--                             end of line. **|NERDCommenterToEOL|**
+--  <leader>cA               - Adds comment delimiters to the end of line and 
+--                             goes into insert mode between them. 
+--                             **|NERDCommenterAppend|**
+--  <No Default>             - Adds comment delimiters at the current cursor 
+--                             position and inserts between. Disabled by default.
+--                             **|NERDCommenterInsert|**
+--  <leader>ca               - Switches to the alternative set of delimiters. 
+--                             **|NERDCommenterAltDelims|**
+--  [count]<leader>cl        - **|NERDCommenterAlignLeft**  Same as 
+--                             **|NERDCommenterComment|** except that the 
+--                             delimiters are aligned down the left side 
+--                             (`<leader>cl`) or both sides (`<leader>cb`).
+--  [count]<leader>cb        - **|NERDCommenterAlignBoth** Same as 
+--                             **|NERDCommenterComment|** except that the 
+--                             delimiters are aligned down the left side 
+--                             (`<leader>cl`) or both sides (`<leader>cb`).
+--  [count]<leader>cu        - Uncomments the selected line(s). 
+--                             **|NERDCommenterUncomment|**
